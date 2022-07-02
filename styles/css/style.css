@@ -10780,7 +10780,7 @@ body {
 }
 
 header {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 header h2, header .h2 {
   font-size: 45px;
@@ -10844,7 +10844,9 @@ header .col-right .right-links .link-portfolio .portfolio-icon i {
 }
 header .col-left {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 header .col-left .polygon {
   width: 75%;

@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    padding-top: 50px;
+    padding-top: 40px;
 
     h2 {
         font-size: 45px;
@@ -72,7 +72,9 @@ header {
 
     .col-left {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
         .polygon {
             width: 75%;
         }
