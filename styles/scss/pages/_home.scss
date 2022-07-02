@@ -74,7 +74,14 @@ header {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        position: relative;
         flex-direction: column;
+        .leyend {
+            position: absolute;
+            right: 90px;
+            top: 15%;
+            font-weight: 600;
+        }
         .polygon {
             width: 50%;
         }
