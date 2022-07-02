@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.button {
+    font-size: 0.8rem;
+    color: white;
+    background-color: $black;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    &:hover {
+        background-color: rgb(31, 31, 31);
+        color: white;
+    }
+}
+
+.button--secondary {
+    background-color: $secondaryColor;
+    color: $black;
+    padding: 7px 8px;
+    border-radius: 12px;
+    span {
+        padding: 8px 10px;
+        border: 1px solid rgb(59, 59, 59);
+        display: block;
+        border-radius: 12px;
+    }
+}

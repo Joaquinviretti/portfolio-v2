@@ -1,0 +1,14 @@
+.navbar {
+    padding-top: 30px;
+    .navbar-brand {
+        font-weight: 600;
+    }
+    
+    .navbar-collapse {
+        flex-grow: 0;
+        .nav-link {
+            color: $black;
+            font-weight: 500;
+        }
+    }
+}
