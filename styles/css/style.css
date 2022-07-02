@@ -10805,16 +10805,16 @@ header .col-right .right-links {
   display: flex;
   align-items: center;
 }
-header .col-right .right-links .link-portfolio {
+header .col-right .right-links .link-proyectos {
   margin-left: 30px;
   display: flex;
   align-items: center;
 }
-header .col-right .right-links .link-portfolio a {
+header .col-right .right-links .link-proyectos a {
   color: #110E0F;
   font-weight: 600;
 }
-header .col-right .right-links .link-portfolio .portfolio-icon {
+header .col-right .right-links .link-proyectos .proyectos-icon {
   width: 28px;
   height: 28px;
   border-radius: 3px;
@@ -10824,7 +10824,7 @@ header .col-right .right-links .link-portfolio .portfolio-icon {
   justify-content: center;
   align-items: center;
 }
-header .col-right .right-links .link-portfolio .portfolio-icon i {
+header .col-right .right-links .link-proyectos .proyectos-icon i {
   color: #FFDE08;
   animation: downArrow;
   animation-duration: 1s;
@@ -10849,7 +10849,14 @@ header .col-left {
   flex-direction: column;
 }
 header .col-left .polygon {
-  width: 75%;
+  width: 50%;
+}
+header .col-left .icons {
+  padding-top: 40px;
+}
+header .col-left .icons i {
+  padding: 0 15px;
+  color: #110E0F;
 }
 
 #portfolio .proyectos article {

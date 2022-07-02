@@ -30,7 +30,7 @@ header {
         .right-links {
             display: flex;
             align-items: center;
-            .link-portfolio {
+            .link-proyectos {
                 margin-left: 30px;
                 display: flex;
                 align-items: center;
@@ -38,7 +38,7 @@ header {
                     color: $black;
                     font-weight: 600;
                 }
-                .portfolio-icon {
+                .proyectos-icon {
                     width: 28px;
                     height: 28px;
                     border-radius: 3px;
@@ -76,7 +76,14 @@ header {
         align-items: center;
         flex-direction: column;
         .polygon {
-            width: 75%;
+            width: 50%;
+        }
+        .icons {
+            padding-top: 40px;
+            i {
+                padding: 0 15px;
+                color: $black;
+            }
         }
     }
 }
